@@ -6,7 +6,8 @@ class Post < ActiveRecord::Base
   before_validation :make_title_case
 
 # New Code!!
-  before_save :email_author_about_post
+
+  
 
   private
 
